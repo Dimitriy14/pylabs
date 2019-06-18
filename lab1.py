@@ -3,7 +3,7 @@ from random import randint
 
 seed(1)
 
-list = [randint(0, 99) for i in range(50)]
+rand_nums = [randint(0, 99) for i in range(50)]
 print("Generated list: ", list)
 
 new_list = []
@@ -11,7 +11,7 @@ new_list = []
 try:
     min_num = int(input("Enter minimum number: "))
     max_num = int(input("Enter maximum number: "))
-    for i, val in enumerate(list):
+    for i, val in enumerate(rand_nums):
         if min_num <= val <= max_num:
             print("list[" + str(i) + "] => " + str(val))
             new_list.append(i)
