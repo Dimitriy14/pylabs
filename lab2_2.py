@@ -1,15 +1,25 @@
 from random import seed
 from random import randint
+from time import time
 
-# generate first set
-seed(1)
-first_set = {randint(0, 10) for i in range(10)}
 
-# generate second set
-seed(7)
-second_set = {randint(0, 10) for j in range(10)}
+def randomizer(seedkey):
+    seed(seedkey)
+    rand_set = {randint(0, 99) for i in range(50)}
 
-print("First set: ", first_set)
-print("Second set: ", second_set)
+    return rand_set
 
-print("Amount of similar number", len(first_set.intersection(second_set)))
+
+def main():
+    first_set = randomizer(int(time()))
+    print("First set: ", first_set)
+
+    second_set = randomizer(int(time())+1)
+    print("Second set: ", second_set)
+
+    print("Amount of similar number", len(first_set.intersection(second_set)))
+
+
+if __name__ == "__main__":
+    main()
+

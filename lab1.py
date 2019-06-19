@@ -14,7 +14,7 @@ def randomizer(seedkey):
 
 
 def main():
-    randomized_list = randomizer(seedkey=int(time()))
+    randomized_list = randomizer(int(time()))
     print("Generated list: ", randomized_list)
 
     new_list = []
