@@ -5,9 +5,8 @@ from time import time
 
 def randomizer(seedkey):
     seed(seedkey)
-    rand_set = {randint(0, 99) for i in range(50)}
 
-    return rand_set
+    return {randint(0, 99) for i in range(50)}
 
 
 def main():

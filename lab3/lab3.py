@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 from random import seed
 from random import randint
 from time import time
@@ -5,16 +8,25 @@ from time import time
 
 def randomizer(seedkey):
     seed(seedkey)
-    rand_list = [randint(0, 99) for i in range(50)]
-    return rand_list
+
+    return [randint(0, 99) for i in range(50)]
 
 
-def get_indexes(some_list, min_num=1, max_num=99):
+def validateRange(min_num, max_num):
+    if max_num <= min_num:
+        raise ValueError
+
+
+def getIndexesOfElementsInRange(randomized_list, min_num, max_num):
+    validateRange(min_num, max_num)
+
     new_list = []
-    for i, val in enumerate(some_list):
+
+    for i, val in enumerate(randomized_list):
         if min_num <= val <= max_num:
             print("list[" + str(i) + "] => " + str(val))
             new_list.append(i)
+
     return new_list
 
 
@@ -25,12 +37,10 @@ def main():
     try:
         min_num = int(input("Enter minimum number: "))
         max_num = int(input("Enter maximum number: "))
-        if max_num <= min_num:
-            print("Wrong numspace, try again.")
-            exit(1)
-        print("Result list: ", get_indexes(randomized_list, min_num, max_num))
+
+        print("Result list: ", getIndexesOfElementsInRange(randomized_list, min_num, max_num))
     except ValueError:
-        print("Incorrect input, try again.")
+        print("Incorrect input or range is invalid, try again.")
         exit(2)
     except Exception as e:
         print("Unexpected exception: ", e)
