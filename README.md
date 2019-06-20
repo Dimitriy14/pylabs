@@ -32,4 +32,5 @@
 ## Lab 6
 
  * [Task description](lab6/Task_Lab6.docx)
- * **Solution isn't complete**
+ * [Solution1](lab6/lab6_1.py)
+ * [Solution2](lab6/lab6_2.py)
