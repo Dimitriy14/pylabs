@@ -17,7 +17,7 @@ def validateRange(min_num, max_num):
         raise ValueError
 
 
-def getIndexesOfElementsInRange(randomized_list, min_num, max_num):
+def getIndexesOfElementsInRange(min_num, max_num, randomized_list = randomizer(int(time()))):
     validateRange(min_num, max_num)
 
     new_list = []
@@ -31,14 +31,11 @@ def getIndexesOfElementsInRange(randomized_list, min_num, max_num):
 
 
 def main():
-    randomized_list = randomizer(int(time()))
-    print("Generated list: ", randomized_list)
-
     try:
         min_num = int(input("Enter minimum number: "))
         max_num = int(input("Enter maximum number: "))
 
-        print("Result list: ", getIndexesOfElementsInRange(randomized_list, min_num, max_num))
+        print("Result list: ", getIndexesOfElementsInRange(min_num, max_num))
     except ValueError:
         print("Incorrect input or range is invalid, try again.")
         exit(2)

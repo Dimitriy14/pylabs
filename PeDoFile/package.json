@@ -1,0 +1,16 @@
+{
+  "name": "docxtopdf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node convertor.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "fs-extra": "^8.0.1",
+    "word2pdf": "^1.0.7"
+  }
+}

@@ -1,10 +1,10 @@
 # TODO: add more keys
 dic = {
-    "Kernighan": ["The C Programming Language", 1972, 352],
-    "Eckel": ["Thinking in Java", 1998, 1150],
     "Maruch": ["Python for dummies", 2011, 411],
+    "Eckel": ["Thinking in Java", 1998, 1150],
+    "Minnick,": ["Coding with JavaScript For Dummies", 2015, 320],
     "Kernigan": ["The Go Programming Language", 2015, 432],
-    "Minnick,": ["Coding with JavaScript For Dummies", 2015, 320]
+    "Kernighan": ["The C Programming Language", 1972, 352],
 }
 
 
