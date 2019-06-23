@@ -20,6 +20,6 @@ const fs = require('fs-extra');
 	}
 
 	for(let labNumber = 1; labNumber <= NUMBER_OF_LABS; labNumber++) {
-		await convert(labNumber);
+		convert(labNumber);
 	}
 })()
