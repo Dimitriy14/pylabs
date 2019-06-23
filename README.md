@@ -27,10 +27,11 @@
 ## Lab 5
 
  * [Task description](lab5/Task_Lab5.docx)
- * **Solution isn't complete**
+ * [Solution 1](lab5/lab5_1.py)
+ * [Solution 2](lab5/lab5_2.py)
  
 ## Lab 6
 
  * [Task description](lab6/Task_Lab6.docx)
- * [Solution1](lab6/lab6_1.py)
- * [Solution2](lab6/lab6_2.py)
+ * [Solution 1](lab6/lab6_1.py)
+ * [Solution 2](lab6/lab6_2.py)

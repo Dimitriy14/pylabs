@@ -1,0 +1,3 @@
+Jun 3 14:39:05.941: %SW_MATM-4-MACFLAP_NOTIF: Host f03a.baaa.7ab7 in vlan 10 is flapping between port Gi0/5 and port Gi0/15
+Jun 3 1:39:0.91: %SW_MATM-4-MACFLAP_NOTIF: Host f0ba.4faa.aac7 in vlan 10 is flapping between port Gi0/5 and port Gi0/15
+Jun 3 22:29:1.91: %SW_MATM-4-MACFLAP_NOTIF: Host f0bc.4fbb.adc7 in vlan 10 is flapping between port Gi0/5 and port Gi0/15
