@@ -5,33 +5,33 @@
 
 ## Lab 1 
 
- * [Task description](lab1/Task_Lab1.pdf)
- * [Solution](lab1/lab1.py) 
+ * [Task description](week1/lab1/Task_Lab1.pdf)
+ * [Solution](week1/lab1/lab1.py) 
 
 ## Lab 2 
 
- * [Task description](lab2/Task_Lab2.pdf)
- * [Solution 1](lab2/lab2_1.py) 
- * [Solution 2](lab2/lab2_2.py) 
+ * [Task description](week1/lab2/Task_Lab2.pdf)
+ * [Solution 1](week1/lab2/lab2_1.py) 
+ * [Solution 2](week1/lab2/lab2_2.py) 
 
 ## Lab 3 
 
- * [Task description](lab3/Task_Lab3.pdf)
- * [Solution](lab3/lab3.py) 
+ * [Task description](week1/lab3/Task_Lab3.pdf)
+ * [Solution](week1/lab3/lab3.py) 
 
 ## Lab 4 
 
- * [Task description](lab4/Task_Lab4.pdf)
- * [Solution](lab4/lab4.py) 
+ * [Task description](week1/lab4/Task_Lab4.pdf)
+ * [Solution](week1/lab4/lab4.py) 
 
 ## Lab 5
 
- * [Task description](lab5/Task_Lab5.docx)
- * [Solution 1](lab5/lab5_1.py)
- * [Solution 2](lab5/lab5_2.py)
+ * [Task description](week1/lab5/Task_Lab5.docx)
+ * [Solution 1](week1/lab5/lab5_1.py)
+ * [Solution 2](week1/lab5/lab5_2.py)
  
 ## Lab 6
 
- * [Task description](lab6/Task_Lab6.docx)
- * [Solution 1](lab6/lab6_1.py)
- * [Solution 2](lab6/lab6_2.py)
+ * [Task description](week1/lab6/Task_Lab6.docx)
+ * [Solution 1](week1/lab6/lab6_1.py)
+ * [Solution 2](week1/lab6/lab6_2.py)
