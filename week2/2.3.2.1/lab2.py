@@ -21,7 +21,7 @@ def get_ticket():
 
     response_json = resp.json()
     serviceTicket = response_json["response"]["serviceTicket"]
-
+    print(serviceTicket)
     return serviceTicket
 
 def print_hosts():
@@ -48,7 +48,8 @@ def print_hosts():
 
 
 def main():
-    print_hosts()
+    get_ticket()
+    #print_hosts()
 
 if __name__ =="__main__":
     main()
